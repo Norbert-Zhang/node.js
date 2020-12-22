@@ -11,3 +11,4 @@ Nodejs+Express+Mongo 学习汇总
   * 教材
       * [Node.js Guides](https://nodejs.org/en/docs/guides/)  官方介绍和API文档.
       * [Node.js 入门](https://cnodejs.org/getstart)
+      * [Node.js 在企业中的应用实践集锦](https://cnodejs.org/topic/5efb4c5d13f8b244e57cc632)
