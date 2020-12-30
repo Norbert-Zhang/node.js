@@ -55,9 +55,10 @@ const Server = http.createServer(function (req, res) {//http://localhost:3000
         res.end();
     }
 });
-// Listen port 3000 Test2
-Server.listen(3000);
-console.log('Listening on port 3000...')
+const port = process.env.PORT || 8080;
+console.log(process.env.PORT);
+Server.listen(port);
+console.log('Server running at http://127.0.0.1:' + port);
 // Ctrl + C restart the Node.js server!!!
 
 
