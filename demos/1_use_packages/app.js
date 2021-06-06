@@ -6,6 +6,7 @@
 5. Using the command "npm i" to automatic install all the target/used packages, if the packages are not present.
 6. 指定安装包的特定版本 => npm install node-media-server@2.1.0 --save
 7. --save命令将依赖写入"package.json"文件
+8. CTRL + C 结束正在运行的NODE应用
  */
 
 var md5 = require('md5');
