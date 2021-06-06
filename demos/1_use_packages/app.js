@@ -5,12 +5,13 @@
 4. Using it und read its document: var md5 = require('md5'); console.log(md5('123456'));
 5. Using the command "npm i" to automatic install all the target/used packages, if the packages are not present.
 6. 指定安装包的特定版本 => npm install node-media-server@2.1.0 --save
+7. --save命令将依赖写入"package.json"文件
  */
 
- var md5 = require('md5');
- console.log(md5("123456"));
+var md5 = require('md5');
+console.log(md5("123456"));
 
- var sd = require('silly-datetime');
+var sd = require('silly-datetime');
 console.log(sd.format(new Date(), 'YYYY-MM-DD HH:mm'));
 
 const mime = require('mime.json');
